@@ -1,0 +1,33 @@
+.commonMain {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  margin: auto;
+  width: 95%;
+  flex: 1;
+  position: relative;
+}
+.commonMain header {
+  padding: 0 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  text-decoration: underline;
+}
+.commonMain footer {
+  height: 50px;
+  padding: 0 2.5%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  flex-shrink: 0;
+  color: black;
+  border-top: 1px solid hsl(0, 0%, 80%);
+}
